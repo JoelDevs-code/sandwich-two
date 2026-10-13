@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sandwich AI</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='icon' type='image/x-icon' media='screen' href='IMG/Group.png'>
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS/index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='dist/style.css'>
+
+    <link rel="stylesheet" href="Library/Flaticon/css/all.css">
+    <link rel="stylesheet" href="Library/Flaticon/css/all.min.css">
+    <!-- <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css"> -->
+    
+    <link rel="stylesheet" href="Fonts/icomoon/style.css">
+    <link rel="stylesheet" href="Fonts/flaticon/font/_flaticon.css">
+</head>
+<body>
+
+
+  <header class="main__header_section w-full" aria-labelledby="main_header" id="main_header">
+    <div class="header_white_cover bg-white">
+      <div class="main__header_wrapper w-full flex items-center justify-between">
+        <div class="header__logo cursor-pointer" id="header_logo"><img src="IMG/logo.png"></div>
+        <nav class="main__navigation" id="main_nav">
+          <ul class="navigation__wrapper" id="nav_wrapper">
+            <li class="nav_list"><a href="#Product" class="nav_link"><span class="nav_item">Product</span></a></li>
+            <li class="nav_list"><a href="#how-it-works" id="link_desc" class="nav_link">
+              <span class="nav_item">How It Works</span></a>
+            </li>
+            <li class="nav_list"><a href="#pricing" class="nav_link"><span class="nav_item">Pricing</span></a></li>
+            <li class="nav_list"><a href="https://dash.sandwichai.co" target="_blank" class="nav_link" title="SignIn to Sandwich AI">
+              <span class="nav_item">Sign In</span></a>
+            </li>
+          </ul>
+        </nav>
+        <button class="auth__btn bg-brown-500 text-white cursor-pointer" id="auth_btn">Sign In</button>
+        <button class="text-black cursor-pointer flex items-center menu_btn">
+          <img src="IMG/Hamburger_Menu.svg" id="open_menu" title="click to open menu">
+          <i class="fa fa-close" id="close_menu" title="click to close menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero__section_container w-full" aria-labelledby="hero_section" id="Product">
+    <div class="hero__section_wrapper w-full flex flex-wrap gap-0 px-5 py-4">
+      <div class="headline__caption items-center flex flex-col gap-1" id="headline_caption">
+        <div class="testimonial__container flex justify-evenly items-center">
+          <img src="IMG/Vector.png"><span class="font-bold">You Control the chaos. Trusted by 500+ resturant</span>
+        </div>
+        <div class="caption_container py-1 text-center gap-1 flex flex-col items-center">
+          <h1>Run your resturant without blind spots.</h1>
+          <p>Track procurement, inventory, kitchen, POS, and finances  in real time, across every department.</p>
+          <button class="caption__btn cursor-pointer bg-brown-500 text-white font-bold" id="caption_btn">Start Free Trial</button>
+          <label for="caption" class="flex items-center gap-5">
+            No Credit Card required <i class="fa fa-circle"></i> 7-day free <i class="fa fa-circle"></i> Setup in minutes
+          </label>
+        </div>
+      </div>
+      <div class="hero__section_img" id="hero_img"><img class="hidden" src="IMG/Desktop holder.jpg"></div>
+    </div>
+  </main> <div class="line__breaker"></div>
+
+  <section class="switch__section px-2 bg-slate-100 w-full animate-section">
+    <div class="switch__section_wrapper w-full flex justify-evenly px-5 py-4 gap-2">
+      <div class="switch__card_container gap-2 flex flex-col">
+        <div class="switch__card_rounded"><i class="fa fa-circle"></i><span>The switch with Sandwich AI</span></div>
+        <div class="switch__card_col">
+          <h3><em>From</em> disconnected operation to real time control</h3>
+          <p>Bringing inventory, kitchen, sales, and finance into one real-time workflow.</p>
+        </div>
+      </div>
+      <div class="collapse_col flex flex-col">
+        <div class="switch__card_container gap-1 flex flex-col">
+        <div class="switch__card_collapse-1 flex flex-col gap-1">
+          <div class="switch__card_rounded-collapse"><span>The hidden cost of running on disconnected tools</span></div>
+          <h3>Restaurants don’t lose money because teams don’t work hard. They lose money because operations are fragmented.</h3>
+          <ul class="switch__list py-0">
+            <li class="switch_list_item"><i class="fa fa-close"></i><span> Inventory numbers don’t match reality</span></li>
+            <li class="switch_list_item"><i class="fa fa-close"></i><span> Waste is discovered too late to prevent it</span></li>
+            <li class="switch_list_item"><i class="fa fa-close"></i><span> Managers approve purchases without full context</span></li>
+            <li class="switch_list_item"><i class="fa fa-close"></i><span> Reports explain the past, not the present</span></li>
+          </ul>
+        </div><br>
+        <div class="switch__card_collapse-2 flex flex-col gap-1">
+          <div class="switch__card_rounded-collapse"><span>One connected system.</span></div>
+          <h3>The system connects every part of your restaurant procurement, inventory, kitchen, POS, and finance in real time.</h3>
+          <ul class="switch__list py-1">
+            <li class="switch_list_item"><i class="fa fa-close"></i><span> Automated validation across departments </span></li>
+            <li class="switch_list_item"><i class="fa fa-close"></i><span> Live operational visibility </span></li>
+            <li class="switch_list_item"><i class="fa fa-close"></i><span> One source of truth for every decision</span></li>
+            <li class="switch_list_item"><i class="fa fa-close"></i><span> Reports explain the past, not the present</span></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="clarity__section_container bg-slate-100 my-2 px-5 py-4 w-full" id="clarity_section">
+    <div class="clarity__section_wrapper w-full">
+      <div class="clarity__section_header animate-section" role="banner">
+        <div class="clarity__header_wrapper flex gap-1 flex-col text-center justify-center items-center">
+          <div class="clarity__rounded"><i class="fa fa-circle"></i><span>Unique benefits</span></div>
+          <h2>Clarity where it <br> <em class="font-normal text-green-500"> matters most.</em> </h2>
+          <h3>All your restaurant operations in one place</h3>
+        </div>
+      </div>
+      <div class="clarity__grid_section px-0 flex flex-wrap justify-evenly gap-0 my-3">
+        <div class="clarity_card px-1 py-2 shadow flex flex-col animate-section">
+          <div class="clarity_card_img"><img src="IMG/Stock.png"></div>
+          <div class="clarity_card_txt">
+            <h4>Know your inventory</h4>
+            <p>Track stock, expiry, waste, and validation across departments with full audit trails.</p>
+          </div>
+        </div>
+        <div class="clarity_card px-1 py-2 shadow flex flex-col animate-section">
+          <div class="clarity_card_img"><img src="IMG/Analysis.png"></div>
+          <div class="clarity_card_txt">
+            <h4>Kitchen automated</h4>
+            <p>AI-powered recipe yields, demand forecasting, and waste reduction built into daily operations.</p>
+          </div>
+        </div>
+        <div class="clarity_card px-1 py-2 shadow flex flex-col animate-section">
+          <div class="clarity_card_img"><img src="IMG/Content.png"></div>
+          <div class="clarity_card_txt">
+            <h4>Sale automatically accounted</h4>
+            <p>POS, payments, and inventory sync instantly with real-time financial reporting.</p>
+          </div>
+        </div>
+        <div class="clarity_card px-1 py-2 shadow flex flex-col animate-section">
+          <div class="clarity_card_img"><img src="IMG/Content (1).png"></div>
+          <div class="clarity_card_txt">
+            <h4>Control without micromanaging</h4>
+            <p>Role-based dashboards, approvals, and monitored communication across teams.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="decription__section_container bg-slate-100 my-2 px-5 py-4 w-full hidden" id="how-it-works">
+    <div class="decription__section_wrapper w-full">
+      <div class="decription__section_header animate-section" role="banner">
+        <div class="decription__header_wrapper flex gap-1 flex-col text-center justify-center items-center">
+          <div class="decription__rounded"><i class="fa fa-circle"></i><span>How It Works</span></div>
+          <h2>Get the answer you need in <em class="font-normal text-green-500">3 steps</em> </h2>
+          <h3>See what’s happening, fix what’s broken, and move forward with confidence.</h3>
+        </div>
+      </div>
+      <div class="decription__grid_section px-4 flex flex-wrap justify-evenly gap-2 my-3">
+        <div class="decription_card px-1 py-2 shadow flex flex-col animate-section">
+          <div class="decription_card_txt flex flex-col gap-5">
+            <h4>Set up your restaurant</h4>
+            <p>Create departments, roles, workflows, and permissions.</p>
+          </div>
+          <div class="decription_card_img"><img src="IMG/Analysis (1).png"></div>
+        </div>
+        <div class="decription_card px-1 py-2 shadow flex flex-col animate-section">
+          <div class="decription_card_txt flex flex-col gap-5">
+            <h4>Connect daily operations</h4>
+            <p>Track procurement → kitchen → POS → finance in real time.</p>
+          </div>
+          <div class="decription_card_img"><img src="IMG/update (2).png"></div>
+        </div>
+        <div class="decription_card px-1 py-2 shadow flex flex-col animate-section">
+          <div class="decription_card_txt flex flex-col gap-5">
+            <h4>Operate with Clarity</h4>
+            <p>AI insights, automated reports, full visibility.</p>
+          </div>
+          <div class="decription_card_img"><img src="IMG/chatbot.png"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="metrics__section_container py-4 w-full">
+    <div class="metrics__section_wrapper w-full flex flex-col items-center gap-2">
+      <div class="metrics__caption_header text-center flex flex-col gap-5 items-center animate-section">
+        <div class="metrics__rounded"><i class="fa fa-circle"></i><span>Metrics</span></div>
+        <h2><em>Track</em> what actually drives <br> <em>growth</em></h2>
+        <p>Analyze performance as it happens and make decisions that protect margins.</p>
+      </div>
+      <div class="metrics_list_grid flex flex-col gap-2 my-2" data-aos="fade-up">
+        <div class="metrics__container font-bold flex gap-2 items-center">
+          <div class="percentage_label">+15%</div>
+          <div class="percentage_decription"><p>Consistent food cost visibility <br> keeps margins within target ranges.</p></div>
+        </div>
+        <div class="metrics__container font-bold flex gap-2 items-center">
+          <div class="percentage_label">-25%</div>
+          <div class="percentage_decription"><p>Food waste drops when stock, prep, and sales stay aligned <br>in real time.</p></div>
+        </div>
+        <div class="metrics__container font-bold flex gap-2 items-center">
+          <div class="percentage_label">90%</div>
+          <div class="percentage_decription"><p> Inventory updates automatically across departments,<br> not manually after the fact.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing_plan_section w-full py-4 px-5 my-3 bg-slate-100" id="pricing">
+    <div class="pricing_plan_wrapper w-full flex flex-col items-center gap-3">
+      <div class="pricing_plan_header text-center flex flex-col gap-5 items-center animate-section">
+        <div class="pricing_plan_rounded"><i class="fa fa-circle"></i><span>Pricing Plan</span></div>
+        <h2>Flexible Pricing</h2><p>Explore transparent built for real world.</p>
+      </div>
+      <div class="pricing__grid_container flex flex-wrap justify-evenly gap-2">
+
+
+          <div class="pricing_grid_card bg-white shadow px-0 py-0 animate-section">
+            <div class="pricing_label_section flex flex-col gap-1">
+              <div class="pricing_label_top_row flex flex-col">
+                <div class="pricing_label-top_desc">Starter</div><div class="pricing_label-top_pricing">$0/<small>month</small></div>
+              </div>
+              <div class="pricing_label_bottom_row flex flex-col gap-2">
+                <span class="pricing_label-bottom_desc font-bold">For single-location restaurants</span>
+                <button class="pricing_btn cursor-pointer text-black hover:translate-y-2" role="button">Start for free</button>
+              </div>
+            </div>
+            <div class="pricing_description_section px-1 py-2">
+              <ul class="price_description_list py-0 flex flex-col gap-1">
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> End-to-end operational tracking</span></li>
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> Inventory, kitchen, POS, and accounting integration</span></li>
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> Daily automated P&L reporting</span></li>
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> Limited role-based access</span></li>
+                <li class="switch_list_item"><i class="fa fa-close"></i><span> AI-Insight and waste Insights</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="pricing_grid_card bg-white shadow px-0 py-0 animate-section">
+            <div class="pricing_label_section flex flex-col gap-1">
+              <div class="pricing_label_top_row flex flex-col bg-orangegradient">
+                <div class="pricing_label-top_desc">Scale</div>
+                <div class="pricing_label-top_pricing text-white">$0/<small>month</small></div>
+              </div>
+              <div class="pricing_label_bottom_row flex flex-col gap-2">
+                <span class="pricing_label-bottom_desc font-bold">For multi-location restaurants</span>
+                <button class="pricing_btn cursor-pointer hover:translate-y-2 bg-black text-white" role="button">Upgrade Plan</button>
+              </div>
+            </div>
+            <div class="pricing_description_section px-1 py-2">
+              <ul class="price_description_list py-0 flex flex-col gap-1">
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> End-to-end operational tracking</span></li>
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> Inventory, kitchen, POS, and accounting integration</span></li>
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> Daily automated P&L reporting</span></li>
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> Unlimited role-based access</span></li>
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> AI-Insight and waste Insights</span></li>
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> Cross-location reporting</span></li>
+                <li class="switch_list_item"><i class="fa fa-close"></i><span> Advance approval workflows</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="pricing_grid_card bg-white shadow px-0 py-0 animate-section">
+            <div class="pricing_label_section flex flex-col gap-1">
+              <div class="pricing_label_top_row flex flex-col bg-black-important">
+                <div class="pricing_label-top_desc">Enterprise</div>
+                <div class="pricing_label-top_pricing text-white">Custom</div>
+              </div>
+              <div class="pricing_label_bottom_row flex flex-col gap-2">
+                <span class="pricing_label-bottom_desc font-bold">For complex, large-scale operations</span>
+                <button class="pricing_btn cursor-pointer bg-black hover:translate-y-2 text-white" role="button">Contact US</button>
+              </div>
+            </div>
+            <div class="pricing_description_section px-1 py-2">
+              <ul class="price_description_list py-0 flex flex-col gap-1">
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> End-to-end operational tracking</span></li>
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> Inventory, kitchen, POS, and accounting integration</span></li>
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> Daily automated P&L reporting</span></li>
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> Unlimited role-based access</span></li>
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> AI-Insight and waste Insights</span></li>
+                <li class="switch_list_item"><i class="fa fa-check"></i><span> Cross-location reporting</span></li>
+                <li class="switch_list_item"><i class="fa fa-close"></i><span> Advance approval workflows</span></li>
+              </ul>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="FAQs_section w-full py-5 px-0 bg-slate-100 my-3">
+    <div class="FAQs_section_wrapper w-full flex flex-col items-center gap-3">
+      <div class="FAQs_header text-center flex flex-col gap-5 items-center">
+        <div class="FAQs_rounded"><i class="fa fa-circle"></i><span>FAQs</span></div>
+        <h2>What do they ask about <em>Sandwich AI</em>?</h2>
+      </div>
+      <div class="FAQs_question_grid flex flex-col w-full px-5">
+        <div class="FAQs_qestions w-full flex flex-col gap-1 px-0">
+
+          <details class="bg-white px-2 py-2 w-full animate-section">
+              <summary class="sumarry_drop cursor-pointer flex w-full justify-between py-1 font-bold">
+                <span>Is this just another inventory app?</span><i class="fa fa-plus"></i>
+              </summary>
+              <div class="FAQs_dropdown">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fugit nulla cum sed ea atque cupiditate, 
+                  ullam dolorum cumque eaque. Officia amet assumenda iste non! Nisi, error. Quaerat, vitae necessitatibus.
+                </p>
+              </div>
+          </details>
+
+          <details class="bg-white px-2 py-2 w-full animate-section">
+              <summary class="sumarry_drop cursor-pointer flex w-full justify-between py-1 font-bold">
+                <span>Who is this built for?</span><i class="fa fa-plus"></i>
+              </summary>
+              <div class="FAQs_dropdown">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fugit nulla cum sed ea atque cupiditate, 
+                  ullam dolorum cumque eaque. Officia amet assumenda iste non! Nisi, error. Quaerat, vitae necessitatibus.
+                </p>
+              </div>
+          </details>
+
+          <details class="bg-white px-2 py-2 w-full animate-section">
+              <summary class="cursor-pointer flex w-full justify-between py-1 font-bold">
+                <span>Can I control who sees what?</span><i class="fa fa-plus"></i>
+              </summary>
+              <div class="FAQs_dropdown">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fugit nulla cum sed ea atque cupiditate, 
+                  ullam dolorum cumque eaque. Officia amet assumenda iste non! Nisi, error. Quaerat, vitae necessitatibus.
+                </p>
+              </div>
+          </details>
+
+          <details class="bg-white px-2 py-2 w-full animate-section">
+              <summary class="sumarry_drop cursor-pointer flex w-full justify-between py-1 font-bold">
+                <span>Do I need technical knowldge to use this?</span><i class="fa fa-plus"></i>
+              </summary>
+              <div class="FAQs_dropdown">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fugit nulla cum sed ea atque cupiditate, 
+                  ullam dolorum cumque eaque. Officia amet assumenda iste non! Nisi, error. Quaerat, vitae necessitatibus.
+                </p>
+              </div>
+          </details>
+
+          <details class="bg-white px-2 py-2 w-full animate-section">
+              <summary class="sumarry_drop cursor-pointer flex w-full justify-between py-1 font-bold">
+                <span>What happens after I sign up?</span><i class="fa fa-plus"></i>
+              </summary>
+              <div class="FAQs_dropdown">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fugit nulla cum sed ea atque cupiditate, 
+                  ullam dolorum cumque eaque. Officia amet assumenda iste non! Nisi, error. Quaerat, vitae necessitatibus.
+                </p>
+              </div>
+          </details>
+
+          <details class="bg-white px-2 py-2 w-full animate-section">
+              <summary class="sumarry_drop cursor-pointer flex w-full justify-between py-1 font-bold">
+                <span>Is my data secure?</span><i class="fa fa-plus"></i>
+              </summary>
+              <div class="FAQs_dropdown">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fugit nulla cum sed ea atque cupiditate, 
+                  ullam dolorum cumque eaque. Officia amet assumenda iste non! Nisi, error. Quaerat, vitae necessitatibus.
+                </p>
+              </div>
+          </details>
+
+          <details class="bg-white px-2 py-2 w-full animate-section">
+              <summary class="sumarry_drop cursor-pointer flex w-full justify-between py-1 font-bold">
+                <span>Does it work for multiple branches?</span><i class="fa fa-plus"></i>
+              </summary>
+              <div class="FAQs_dropdown">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fugit nulla cum sed ea atque cupiditate, 
+                  ullam dolorum cumque eaque. Officia amet assumenda iste non! Nisi, error. Quaerat, vitae necessitatibus.
+                </p>
+              </div>
+          </details>
+
+          <details class="bg-white px-2 py-2 w-full animate-section">
+              <summary class="sumarry_drop cursor-pointer flex w-full justify-between py-1 font-bold">
+                <span>Can suppliers access the system?</span><i class="fa fa-plus"></i>
+              </summary>
+              <div class="FAQs_dropdown">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates fugit nulla cum sed ea atque cupiditate, 
+                  ullam dolorum cumque eaque. Officia amet assumenda iste non! Nisi, error. Quaerat, vitae necessitatibus.
+                </p>
+              </div>
+          </details>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="free_trial_section w-full py-5 bg-white my-3">
+    <div class="free_trial_wrapper items-center gap-3 py-2 relative">
+      <div class="free_trial_context text-center text-white items-center flex flex-col gap-1 animate-section">
+        <h1>Experience what running a resturant should feel like</h1>
+        <p>All your resturant operations, live insight, and decision you can trust in one place</p>
+        <button class="free_trial_btn bg-white text-black cursor-pointer my-1 shadow">Start Free Trial</button>
+      </div>
+      <div class="free_trial_image absolute"><img src="IMG/Ellipses.png"></div>
+    </div>
+  </section>
+
+  <footer class="main__footer_section w-screen bg-white px-5 py-5">
+    <div class="main__footer_wrapper w-full px-2 flex flex-col gap-2">
+      <div class="main__footer_image animate-section"><img src="IMG/Rectangle 1033.png"></div>
+      <div class="main__footer_nav_grid flex justify-between">
+        <div class="footer_grid_1 flex flex-col gap-1">
+          <img src="IMG/logo.png" width="200px" id="footer_logo" class="cursor-pointer">
+          <ul class="footer_grid_nav">
+            <div class="footer_grid_1_heading_text flex items-center gap-5"><i class="fa fa-square"></i><h4>NAVIGATION</h4></div>
+            <li class="footer__nav_link"><a href="#main"><span>Product</span></a></li>
+            <li class="footer__nav_link"><a href="#description_section"><span>How it works</span></a></li>
+            <li class="footer__nav_link"><a href="#pricing_section"><span>Pricing</span></a></li>
+          </ul>
+          <ul class="footer_grid_nav">
+            <div class="footer_grid_1_heading_text flex items-center gap-5"><i class="fa fa-square"></i><h4>Company</h4></div>
+            <li class="footer__nav_link"><a href=""><span>About Us</span></a></li>
+            <li class="footer__nav_link"><a href=""><span>Privacy Policy</span></a></li>
+            <li class="footer__nav_link"><a href=""><span>Terms of service</span></a></li>
+          </ul>
+        </div>
+        <div class="footer_grid_2 px-1 py-3">
+          <div class="footer_grid_2_wrapper flex flex-col gap-2">
+            <div class="footer_grid_2_heading_text flex items-center gap-5"><i class="fa fa-square"></i><h4>GET IN TOUCH</h4></div>
+            <a href="mailto:hello@SandwichAI.com" class="contact__link flex gap-1">
+              <img src="IMG/Icon.png" width="20px"><span>info@sandwichai.co</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__closing_container gap-1 flex-wrap-reverse flex justify-between">
+        <span>@2026 Sandwich AI. All right reserved</span>
+        <div class="social__icons flex gap-1">
+          <a href=""><div class="social__icon_container"><i class="fab fa-x-twitter"></i></div></a>
+          <a href=""><div class="social__icon_container"><i class="fab fa-instagram"></i></div></a>
+          <a href=""><div class="social__icon_container"><i class="fab fa-facebook-square"></i></div></a>
+          <a href=""><div class="social__icon_container"><i class="fab fa-square-linkedin"></i></div></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="JS/index.js"></script>
+</body>
+</html>
